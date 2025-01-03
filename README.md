@@ -8,8 +8,17 @@ A single SKU for FRC teams providing the following features:
 4. Switchable termination - every junction can be a termination point!
 5. Mountable to standard 0.5"x#10 FRC pitch grid
 
+## Images
+
 ![FRONT](./CANTERM-FRONT.png)
-![BACK](./CANTERM-BACK.png)
+![REAR](./CANTERM-REAR.png)
+
+Apologies for the flux slime + sharpied out silkscreen where I labeled things backwards in rev 1.
+
+![FRONT](./CANTERM-REAL-FRONT.png)
+![REAR](./CANTERM-REAL-REAR.png)
+![PROFILE](./CANTERM-REAL-PROFILE.png)
+
 
 ## How to use
 
