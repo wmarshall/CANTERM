@@ -15,9 +15,9 @@ A single SKU for FRC teams providing the following features:
 
 Apologies for the flux slime + sharpied out silkscreen where I labeled things backwards in rev 1.
 
-![FRONT](./CANTERM-REAL-FRONT.png)
-![REAR](./CANTERM-REAL-REAR.png)
-![PROFILE](./CANTERM-REAL-PROFILE.png)
+![FRONT](./CANTERM-REAL-FRONT.jpg)
+![REAR](./CANTERM-REAL-REAR.jpg)
+![PROFILE](./CANTERM-REAL-PROFILE.jpg)
 
 
 ## How to use
