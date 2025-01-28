@@ -921,6 +921,12 @@
 		(uuid "581d25c7-00b0-449e-9f73-4c021a39a7f6")
 	)
 	(junction
+		(at 162.56 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e7efc11-bbef-441d-99ba-8542f42b6edb")
+	)
+	(junction
 		(at 111.76 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -963,10 +969,20 @@
 		(uuid "e0a544da-a450-4305-94e0-6c6c8cfa74a6")
 	)
 	(junction
-		(at 148.59 88.9)
+		(at 162.56 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e7cc6012-8d29-43df-a563-253e72660187")
+		(uuid "fdd99cb6-9d9c-4573-8057-e84ec2223388")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.9) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002d630f-dc8c-482f-bd30-91d6814d6057")
 	)
 	(wire
 		(pts
@@ -1017,16 +1033,6 @@
 			(type default)
 		)
 		(uuid "148611ab-3cb5-4490-89ed-f524e9b9d650")
-	)
-	(wire
-		(pts
-			(xy 148.59 101.6) (xy 156.21 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f605cc6-59b3-4d3a-ae93-bf22b692a372")
 	)
 	(wire
 		(pts
@@ -1100,16 +1106,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 44.45) (xy 153.67 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "578d67d9-523d-4ac0-9da8-12c19827aa34")
-	)
-	(wire
-		(pts
 			(xy 148.59 71.12) (xy 128.27 71.12)
 		)
 		(stroke
@@ -1160,13 +1156,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 88.9) (xy 148.59 101.6)
+			(xy 162.56 83.82) (xy 182.88 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "725cc616-7241-400f-b97d-92fb014e6bf1")
+		(uuid "705a2bc3-7141-4c98-89fd-0fa5cdb7d309")
 	)
 	(wire
 		(pts
@@ -1247,16 +1243,6 @@
 			(type default)
 		)
 		(uuid "a4976fd9-cb5d-4569-a265-e678c66063e7")
-	)
-	(wire
-		(pts
-			(xy 147.32 44.45) (xy 147.32 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7a24f84-b2bb-49a8-84d3-75ab8d03b31e")
 	)
 	(wire
 		(pts
@@ -1350,7 +1336,7 @@
 	)
 	(global_label "CAN-"
 		(shape bidirectional)
-		(at 156.21 101.6 0)
+		(at 182.88 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1360,7 +1346,7 @@
 		)
 		(uuid "277640be-1f20-4ccc-97a4-984b1fc32560")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.568 101.6 0)
+			(at 192.238 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1380,7 @@
 	)
 	(global_label "CAN+"
 		(shape bidirectional)
-		(at 153.67 44.45 0)
+		(at 182.88 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1404,7 +1390,7 @@
 		)
 		(uuid "754a8129-9b33-4b88-aa32-7ef01bab6971")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.028 44.45 0)
+			(at 192.238 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +1747,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 135.89 88.9 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
@@ -1804,15 +1790,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 135.89 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 135.89 88.9 0)
 			(effects
 				(font
